@@ -1,10 +1,10 @@
 # Datheon Python Programming Internship
 
 **Student:** Bhumika K R  
-**Batch:** 01  
 **Program:** Python Programming Internship  
 **Duration:** 4 Weeks  
 **Internship started:** October 17, 2026
+
 **Deadline:** November 14, 2026
 
 ## About the Internship

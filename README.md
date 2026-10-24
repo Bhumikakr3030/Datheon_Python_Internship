@@ -4,8 +4,6 @@
 **Batch:** 01  
 **Program:** Python Programming Internship  
 **Duration:** 4 Weeks  
-**Institution:** Nitte Meenakshi Institute of Technology (NMIT), Bengaluru  
-**Application ID:** DT-2026-2HMRT  
 **Internship started:** October 17, 2026
 **Deadline:** November 14, 2026
 
@@ -178,8 +176,6 @@ Update each status after successfully testing the corresponding program.
 ## Internship Submission
 
 **Program:** Datheon Python Programming Internship  
-**Batch:** 01  
-**Application ID:** DT-2026-2HMRT  
 **Student:** Bhumika K R
 
 **Repository URL:**  

@@ -1,181 +1,194 @@
 # Datheon Python Programming Internship
 
+**Student:** Bhumika K R  
 **Batch:** 01  
 **Program:** Python Programming Internship  
 **Duration:** 4 Weeks  
-**Student:** Bhumika K R  
-**Application ID:** DT-2026-2HMRT  
 **Institution:** Nitte Meenakshi Institute of Technology (NMIT), Bengaluru  
-**Program Deadline:** November 14, 2026
+**Application ID:** DT-2026-2HMRT  
+**Internship started:** October 17, 2026
+**Deadline:** November 14, 2026
 
 ## About the Internship
 
-This repository contains Python projects developed as part of the Datheon Python Programming Internship. The projects demonstrate foundational programming skills, problem-solving, control flow, file handling, automation, data persistence, and interactive console application development.
+This repository contains Python programming projects developed as part of the Datheon Python Programming Internship. The projects focus on practical programming, problem-solving, automation, file handling, data processing, and interactive console applications.
 
-## Projects
+**GitHub Repository:** [new-internship-project](https://github.com/Bhumikakr3030/new-internship-project)
+
+## Tasks and Projects
 
 ### Task 1: Hangman Word Guessing Game
 
-An interactive console-based word guessing game in which the player guesses a hidden word one letter at a time.
+A console-based word guessing game in which players guess a hidden word one letter at a time.
 
 **Features**
 - Random word selection.
-- Letter-by-letter guessing.
+- Letter validation and repeated-guess detection.
+- Displays correctly guessed letters.
 - Tracks incorrect guesses.
-- Displays the word's progress.
-- Detects win and loss conditions.
-- Allows the player to restart the game.
+- Win and loss conditions.
+- Option to play again.
 
-**Concepts:** Python strings, lists, loops, conditional statements, functions, and random module.
+**Technologies:** Python, strings, lists, loops, conditionals, and the `random` module.
 
-**Run the project:**
-
+**Run:**
 ```bash
-python hangman.py
+python hangeman.py
 ```
 
 ### Task 2: Stock Portfolio Performance Tracker
 
-A Python application for tracking stock holdings and calculating portfolio performance.
+A Python application that tracks stock holdings and calculates portfolio performance.
 
 **Features**
-- Records stock symbols, quantities, and purchase prices.
-- Calculates investment costs and portfolio value.
-- Computes profit or loss.
-- Saves portfolio performance records to a CSV file.
-- Supports portfolio review and tracking.
+- Records stock symbols and quantities.
+- Tracks purchase and current prices.
+- Calculates investment value and profit or loss.
+- Stores portfolio records in CSV format.
+- Supports portfolio performance review.
 
-**Concepts:** Python functions, arithmetic, dictionaries, CSV handling, and file operations.
+**Technologies:** Python, functions, dictionaries, arithmetic operations, and CSV file handling.
 
-**Run the project:**
-
+**Run:**
 ```bash
 python portfolio.py
 ```
 
-*Note: Real-time stock prices require a suitable market-data source or API. Clearly identify whether the application uses live prices or manually entered/sample prices.*
+*Note: Portfolio calculations depend on the price data entered or supplied by the application. Live market data requires an appropriate data source.*
 
-### Task 3: Automated File Organizer & Cleanup Utility
+### Task 3: Automated File Organizer and Cleanup Utility
 
-A Python utility that organizes files into folders based on file extensions and helps maintain a clean directory structure.
+A Python utility that organizes files into folders according to their file extensions.
 
 **Features**
 - Scans a selected directory.
 - Identifies files by extension.
-- Creates category folders automatically.
-- Moves files into appropriate folders.
-- Handles files with unknown extensions.
-- Provides safeguards against unintended file changes.
+- Organizes files into suitable categories.
+- Handles unsupported file types.
+- Uses file and directory operations.
 
-**Concepts:** Python `os`, `pathlib`, file handling, exception handling, and directory management.
+**Technologies:** Python, `os`, `pathlib`, `shutil`, and exception handling.
 
-**Run the project:**
-
+**Run:**
 ```bash
 python organizer.py
 ```
 
-*Safety note: Test with a sample folder before organizing important files.*
+*Safety: Test the utility on a sample directory before organizing important files.*
 
-### Task 4: Rule-Based Interactive Terminal Assistant / Chatbot
+### Task 4: Rule-Based Interactive Terminal Chatbot
 
-A rule-based chatbot that interacts with users through the terminal and responds to predefined messages.
+A rule-based chatbot that interacts with users through a terminal and responds to predefined messages.
 
 **Features**
-- Greets the user.
-- Responds to common messages.
-- Recognizes multiple predefined commands.
-- Handles unknown inputs with a fallback response.
-- Continues the conversation until the user exits.
-- Uses functions or modular logic for maintainability.
+- Greeting and welcome messages.
+- Responses to frequently asked questions.
+- Predefined command recognition.
+- Fallback responses for unknown questions.
+- Interactive conversation until the user exits.
 
-**Concepts:** Python strings, loops, conditional statements, functions, and input processing.
+**Technologies:** Python, strings, loops, conditional statements, functions, and input processing.
 
-**Run the project:**
-
+**Run:**
 ```bash
-python chatbot.py
+python chatbot1.py
 ```
 
 ## Technologies Used
 
-- **Programming Language:** Python
-- **Development Environment:** VS Code or any Python-compatible IDE
-- **Version Control:** Git
-- **Repository Hosting:** GitHub
-- **Data Storage:** CSV and local files, where applicable
-- **Libraries:** Python standard library; additional dependencies documented in the relevant project
+- Python 3
+- Visual Studio Code
+- Git and GitHub
+- CSV file handling
+- JSON data handling, where applicable
+- Python standard library
 
 ## Repository Structure
 
 ```text
-Datheon_Python_Programming_Internship/
-│
+new-internship-project/
 ├── README.md
-├── hangman.py
-├── portfolio.py
+├── chat.py
+├── chatbot1.py
+├── hangeman.py
+├── hangman1.py
 ├── organizer.py
-├── chatbot.py
-└── requirements.txt
+├── portfolio.py
+├── portfolio_summary.csv
+├── sample_faq.json
+└── words.csv
 ```
 
-The `requirements.txt` file should list any external packages actually required by the projects. If all projects use only Python's standard library, external dependencies may not be necessary.
+The repository may contain additional supporting files. Retain only the files needed by the final project versions.
 
-## Installation and Setup
+## Installation and Execution
 
-1. Install Python 3 on your computer.
-2. Install Git and create a GitHub account if needed.
-3. Clone the repository:
+### Prerequisites
+
+- Python 3 installed on your computer.
+- Git installed, if you want to clone the repository.
+
+### Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/Datheon_Python_Programming_Internship.git
+git clone https://github.com/Bhumikakr3030/new-internship-project.git
 ```
 
-4. Open the project directory:
+Navigate to the project folder:
 
 ```bash
-cd Datheon_Python_Programming_Internship
+cd new-internship-project
 ```
 
-5. Run the Python file for the project you want to test.
+Run a project using Python:
 
-Replace `YOUR-USERNAME` with your actual GitHub username.
+```bash
+python hangeman.py
+python portfolio.py
+python organizer.py
+python chatbot1.py
+```
+
+Run each command separately.
 
 ## Learning Outcomes
 
-Through these projects, I aim to demonstrate:
+These projects demonstrate practical experience with:
 
-- Fundamental Python programming and logical thinking.
-- Modular and readable code development.
-- String manipulation and control flow.
-- File and directory automation.
+- Python fundamentals and problem-solving.
+- Control flow and string manipulation.
+- Functions and modular programming.
+- Input validation and exception handling.
 - CSV-based data storage.
-- Error handling and input validation.
-- Git and GitHub version-control practices.
+- File and directory automation.
+- Interactive console application development.
+- GitHub repository management.
 
 ## Project Status
 
 | Task | Project | Status |
 |---|---|---|
-| 1 | Hangman Word Guessing Game | Update after testing |
-| 2 | Stock Portfolio Performance Tracker | Update after testing |
-| 3 | Automated File Organizer | Update after testing |
-| 4 | Rule-Based Terminal Chatbot | Update after testing |
+| 1 | Hangman Word Guessing Game | Verify by testing |
+| 2 | Stock Portfolio Performance Tracker | Verify by testing |
+| 3 | Automated File Organizer | Verify by testing |
+| 4 | Interactive Terminal Chatbot | Verify by testing |
+
+Update each status after successfully testing the corresponding program.
 
 ## Internship Submission
 
-This repository is intended for submission for technical evaluation as part of the Datheon Python Programming Internship.
+**Program:** Datheon Python Programming Internship  
+**Batch:** 01  
+**Application ID:** DT-2026-2HMRT  
+**Student:** Bhumika K R
 
-**Application ID:** DT-2026-2HMRT
-
-**Repository:** `Datheon_Python_Programming_Internship`
-
-**GitHub Profile:** Add your GitHub profile link here.
+**Repository URL:**  
+https://github.com/Bhumikakr3030/new-internship-project
 
 ## Declaration
 
-I have created this repository to organize and demonstrate my Python programming projects and practical learning during the internship. The implementation details and completion status should reflect the code and tests actually included in this repository.
+This repository serves as a portfolio of Python programming projects developed for learning and practical experience during the Datheon Python Programming Internship. The submitted code and project status should accurately reflect the implementations completed and tested by the student.
 
 ---
 
-*Developed as part of the Datheon Python Programming Internship — Batch 01.*
+*Datheon Python Programming Internship — Batch 01*

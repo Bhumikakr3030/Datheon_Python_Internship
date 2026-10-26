@@ -176,11 +176,6 @@ Update each status after successfully testing the corresponding program.
 **Program:** Datheon Python Programming Internship  
 **Student:** Bhumika K R
 
-**Repository URL:**  
-https://github.com/Bhumikakr3030/new-internship-project
-
-## Declaration
-
 This repository serves as a portfolio of Python programming projects developed for learning and practical experience during the Datheon Python Programming Internship. The submitted code and project status should accurately reflect the implementations completed and tested by the student.
 
 ---

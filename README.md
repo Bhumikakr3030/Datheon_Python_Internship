@@ -11,8 +11,6 @@
 
 This repository contains Python programming projects developed as part of the Datheon Python Programming Internship. The projects focus on practical programming, problem-solving, automation, file handling, data processing, and interactive console applications.
 
-**GitHub Repository:** [new-internship-project](https://github.com/Bhumikakr3030/new-internship-project)
-
 ## Tasks and Projects
 
 ### Task 1: Hangman Word Guessing Game
